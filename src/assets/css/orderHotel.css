@@ -1,0 +1,62 @@
+
+
+.head{
+    margin-top: 2vh;
+}
+.head i{
+    color: #0a0a0a;
+    font-size: 30px;
+    margin-left: 2vw;
+}
+.title{
+    color: #0a0a0a;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 2vh;
+    margin-left: 13vw;
+}
+.order-type,.price,.number,.start-time,.end-time{
+    border-bottom: 1px solid #c7d4d4;
+    margin: 0 3vw;
+    padding: 2vh 0;
+}
+.number p,.start-time p,
+.end-time p,.order-type p,
+.price p{
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.order-type .weui-cell__ft,.price .weui-cell__ft{
+    width:  58%;
+    font-size: 20px;
+}
+.vux-cell-value{
+    color: #666666;
+    font-size: 22px;
+}
+.totalBox{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 -2px 5px #e7d1d1;
+    padding: 3vh 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.total>p{
+    font-size: 22px;
+    margin-left: 3vw;
+    letter-spacing: -2px;
+}
+.submit-btn{
+    background-color: #f36d7f;
+    border-radius: 4px;
+    margin-right: 3vw;
+    padding: .5vh 3vw;
+}
+.submit-btn>p{
+    color: #ffffff;
+    font-size: 20px;
+}

@@ -1,0 +1,44 @@
+
+.personal{
+    margin-top: 8vh;
+}
+.userInfo{
+    margin-bottom: 8vh;
+}
+.userName{
+    text-align: right;
+}
+.userName>p{
+    font-size: 33px;
+    font-weight: bold;
+}
+.userName>p>span{
+    font-size: 20px;
+    font-weight: normal;
+}
+.userElse{
+    margin-top: 21vh;
+}
+.history-order,.logout{
+    position: relative;
+    border-top: 2px solid #c5c5c5;
+}
+.history-order>p,.logout>p{
+    font-size: 24px;
+    text-align: center;
+    padding: 2vh 0;
+}
+.his-number{
+    position: absolute;
+    width: 5vw;
+    height: 2.8vh;
+    background-color: #eb6666;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 2.8vh;
+    text-align: center;
+    top: 2vh;
+    left: 50%;
+    margin-left: 13vw;
+}

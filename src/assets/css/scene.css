@@ -1,0 +1,100 @@
+
+.scene-detail{
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 2vh;
+}
+.scene-detail>span{
+    position: absolute;
+    left: 15px;
+}
+.scene-detail i{
+    color: #ffffff;
+    font-size: 35px;
+}
+.scene-detail>img{
+    width: 100%;
+    height: 100%;
+}
+.scene-info,.scene-open,
+.scene-tips,.policy{
+    border-bottom: 1px solid #c9c9c9;
+    margin: 0 4vw;
+    padding-bottom: 3vh;
+}
+.scene-name>p{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.little-desc>p{
+    color: #d4dbdd;
+    margin-left: 10px;
+    margin-bottom: 2vh;
+}
+.scene-address>p{
+    display:inline-block;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.scene-desc{
+    border-bottom: 1px solid #c9c9c9;
+    margin: 0 4vw;
+    padding-bottom: 3vh;
+    text-align: right;
+}
+.desc-title,.open-title,
+.tips-title,.ticket-title,.policy-title{
+    font-size: 25px;
+    padding: 2vw 0;
+}
+.scene-desc>p{
+    text-align: left;
+    margin-left: 10px;
+}
+.see-more{
+    color: #00b7ff;
+    font-size: 14px;
+}
+.scene-open>p,.scene-tips>p{
+    margin-left: 10px;
+}
+.ticketBox{
+    margin: 0 4vw;
+    padding-bottom: 6vh;
+}
+.tips{
+    margin-left: 15px;
+    list-style: none;
+}
+.tips-icon{
+    color: #fa768c;
+    margin-right: .5vw;
+}
+.ticket{
+    padding-left: 2vw;
+    padding-bottom: 5px;
+}
+.set-name{
+    font-size: 20px;
+}
+.ticket:not(:last-of-type){
+    border-bottom: 1px solid #e6e6e6;
+}
+.ticket>ul>li{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2vw;
+}
+.ticket-name{
+    font-size: 17px;
+    align-self: center;
+}
+.bookBtn{
+    background-color: #fa768c;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    padding: 0.4vh 2vh 0.5vh 2vh;
+}

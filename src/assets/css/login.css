@@ -1,0 +1,60 @@
+.log{
+    width: 100%;
+    height: 100%;
+    background: -moz-linear-gradient(135deg,#60dfaa,#2fb3bd,#624cdd);
+    background:-o-linear-gradient(135deg,#60dfaa,#2fb3bd,#624cdd);
+    background: -webkit-linear-gradient(135deg,#60dfaa,#2fb3bd,#624cdd);
+    background: linear-gradient(135deg,#60dfaa,#2fb3bd,#624cdd);
+}
+.log-head>p{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 5vh 0;
+    margin-left: 3vw;
+}
+.box{
+    margin: 0 3vw;
+}
+.username,.password{
+    border-bottom: 1px solid #e9e8e8;
+    margin-bottom: 3vh;
+}
+.username>p,.password>p{
+    color: #ffffff;
+    font-size: 25px;
+    margin-left: 3vw;
+}
+.pwd{
+    width: 100%;
+    background-color: transparent;
+    border: 0 none;
+    padding: 15px;
+}
+.username input,.password input{
+    color: #ffffff;
+    font-size: 20px;
+    outline: none;
+}
+.show-pwd{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: right;
+}
+.in{
+    position: absolute;
+    width: 100%;
+    bottom: 14vh;
+    text-align: center;
+}
+.login-btn{
+    display: inline-block;
+    width: 90%;
+    height: 8vh;
+    background-color: #f44336;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 8vh;
+}
